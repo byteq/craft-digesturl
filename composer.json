@@ -11,10 +11,9 @@
         "digesturl"
     ],
     "support": {
-        "docs": "???",
-        "issues": "???"
+        "docs": "https://github.com/byteq/digest-url",
+        "issues": "https://github.com/byteq/digest-url"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "byteq",
