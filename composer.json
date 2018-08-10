@@ -1,0 +1,40 @@
+{
+    "name": "byteq/digest-url",
+    "description": "Digests URLs",
+    "type": "craft-plugin",
+    "version": "2.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "digesturl"
+    ],
+    "support": {
+        "docs": "???",
+        "issues": "???"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "byteq",
+            "homepage": "https://byteq.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "byteq\\digesturl\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "DigestUrl",
+        "handle": "digest-url",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "???",
+        "class": "byteq\\digesturl\\DigestUrl"
+    }
+}
